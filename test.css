@@ -1,0 +1,135 @@
+body {
+    scroll-behavior: smooth;
+    padding-top: 70px;
+}
+
+
+.hero {
+    min-height: 100vh;
+    padding-top: 100px;
+    background: linear-gradient(rgba(209, 209, 191, 0.6), rgba(244, 243, 237, 0.6)),
+            url('download.png');
+    background-size: cover;
+    background-position: center;
+    color: rgb(16, 4, 4);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+}
+#about {
+  background: #fff;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+}
+
+
+.about-text strong {
+  color: #ff4d6d;
+}
+.progress {
+  height: 20px;
+  border-radius: 10px;
+}
+
+.progress-bar {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+
+section {
+    padding-top: 80px;
+}
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+  gap: 15px;
+}
+
+
+.skills-container span {
+  padding: 10px 18px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  transition: 0.3s;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+
+.skills-container span:nth-child(1) { background: #ffe0ec; }
+.skills-container span:nth-child(2) { background: #e0f7fa; }
+.skills-container span:nth-child(3) { background: #fff3cd; }
+.skills-container span:nth-child(4) { background: #d1f7c4; }
+.skills-container span:nth-child(5) { background: #e5dbff; }
+.skills-container span:nth-child(6) { background: #ffd6a5; }
+.skills-container span:nth-child(7) { background: #caffbf; }
+.skills-container span:nth-child(8) { background: #ffc6ff; }
+
+
+
+
+#contact p {
+  color: #555;
+  font-size: 15px;
+}
+
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+
+.btn {
+    border-radius: 30px;
+}
+
+
+#contact {
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-15px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+}
+#services .col-md-4:nth-child(1) .card {
+  background: #ffe0ec;
+}
+
+#services .col-md-4:nth-child(2) .card {
+  background: #e0f7fa;
+}
+
+#services .col-md-4:nth-child(3) .card {
+  background: #fff3cd;
+}
+#services .card:hover {
+  transform: translateY(-10px) rotate(-1deg);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+#services .card {
+  border: 2px dashed #333;
+}
+#services h4 {
+  font-weight: 700;
+}
+
+#services p {
+  font-size: 14px;
+  color: #444;
+}
